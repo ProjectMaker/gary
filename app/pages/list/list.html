@@ -1,0 +1,4 @@
+<StackLayout>
+    <Button text="add" (tap)="submit()"></Button>
+    <label *ngFor='let place of places' [text]="place.name"></label>
+</StackLayout>

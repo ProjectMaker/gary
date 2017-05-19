@@ -1,0 +1,15 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var DDPClient = require("nativescript-meteor");
+var ddpclient = new DDPClient({
+    host: "localhost",
+    port: 3000,
+    ssl: false,
+    autoReconnect: true,
+    autoReconnectTimer: 15000,
+    maintainCollections: true,
+    ddpVersion: '1',
+    useSockJs: true
+});
+exports.default = ddpclient;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJpbmRleC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLCtDQUFrRDtBQUVsRCxJQUFNLFNBQVMsR0FBRyxJQUFJLFNBQVMsQ0FBQztJQUM5QixJQUFJLEVBQUUsV0FBVztJQUNqQixJQUFJLEVBQUUsSUFBSTtJQUNWLEdBQUcsRUFBRSxLQUFLO0lBQ1YsYUFBYSxFQUFFLElBQUk7SUFDbkIsa0JBQWtCLEVBQUUsS0FBSztJQUN6QixtQkFBbUIsRUFBRSxJQUFJO0lBQ3pCLFVBQVUsRUFBRSxHQUFHO0lBQ2YsU0FBUyxFQUFFLElBQUk7Q0FDaEIsQ0FBQyxDQUFDO0FBRUgsa0JBQWUsU0FBUyxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEREUENsaWVudCA9IHJlcXVpcmUoXCJuYXRpdmVzY3JpcHQtbWV0ZW9yXCIpO1xuXG5jb25zdCBkZHBjbGllbnQgPSBuZXcgRERQQ2xpZW50KHtcbiAgaG9zdDogXCJsb2NhbGhvc3RcIixcbiAgcG9ydDogMzAwMCxcbiAgc3NsOiBmYWxzZSxcbiAgYXV0b1JlY29ubmVjdDogdHJ1ZSxcbiAgYXV0b1JlY29ubmVjdFRpbWVyOiAxNTAwMCxcbiAgbWFpbnRhaW5Db2xsZWN0aW9uczogdHJ1ZSxcbiAgZGRwVmVyc2lvbjogJzEnLFxuICB1c2VTb2NrSnM6IHRydWVcbn0pO1xuXG5leHBvcnQgZGVmYXVsdCBkZHBjbGllbnQ7Il19
