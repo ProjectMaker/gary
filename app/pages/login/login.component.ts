@@ -3,6 +3,7 @@ import { Component, OnInit } from "@angular/core";
 import { Router } from "@angular/router";
 import { User } from '../../shared/user/user';
 import { UserService } from "../../shared/user/user.service";
+import { DdpClientService } from "../../shared/ddp/client.service";
 
 @Component({
   selector: "my-app",
@@ -14,8 +15,9 @@ export class LoginComponent implements OnInit {
   isLoggingIn = true;
   error = false;
 
-  constructor(private userService:UserService, private router:Router, private page:Page) {
+  constructor(private ddpService:DdpClientService, private userService:UserService, private router:Router, private page:Page) {
     this.user = new User();
+    //this.ddpService.hello();
   }
 
   ngOnInit() {

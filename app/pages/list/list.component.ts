@@ -1,7 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 import { NgZone } from "@angular/core";
 import { PlaceService } from "../../shared/place/place.service";
-import { DdpService } from '../../shared/ddp/ddp.service';
+import { DdpClientService } from '../../shared/ddp/client.service';
 import { Place } from "../../shared/place/place";
 
 @Component({
@@ -15,7 +15,7 @@ import { Place } from "../../shared/place/place";
 export class ListComponent {
   places:Array<Place> = [];
 
-  constructor(private ddpService:DdpService, private placeService:PlaceService, private zone:NgZone) {
+  constructor(private ddpService:DdpClientService, private placeService:PlaceService, private zone:NgZone) {
 
   }
   

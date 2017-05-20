@@ -6,7 +6,8 @@ import { NativeScriptRouterModule } from "nativescript-angular/router";
 
 import { AppComponent } from "./app.component";
 import { routes, navigatableComponents } from "./app.routing";
-import { DdpService } from './shared/ddp/ddp.service';
+import { DdpConnectService } from './shared/ddp/connect.service';
+import { DdpClientService } from './shared/ddp/client.service';
 import { UserService } from "./shared/user/user.service";
 
 @NgModule({
@@ -22,7 +23,8 @@ import { UserService } from "./shared/user/user.service";
     ...navigatableComponents
   ],
   providers: [
-    DdpService,
+    DdpConnectService,
+    DdpClientService,
     UserService,
   ],
   bootstrap: [AppComponent]

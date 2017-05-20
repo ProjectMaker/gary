@@ -1,11 +1,13 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var User = (function () {
-    function User(email) {
+    function User(email, password) {
         if (email === void 0) { email = 'tomperso@yahoo.fr'; }
+        if (password === void 0) { password = 'Rudeboy788?788'; }
         this.email = email;
+        this.password = password;
     }
     return User;
 }());
 exports.User = User;
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidXNlci5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbInVzZXIudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQTtJQUlFLGNBQVksS0FBa0M7UUFBbEMsc0JBQUEsRUFBQSwyQkFBa0M7UUFDNUMsSUFBSSxDQUFDLEtBQUssR0FBRyxLQUFLLENBQUM7SUFDckIsQ0FBQztJQUNILFdBQUM7QUFBRCxDQUFDLEFBUEQsSUFPQztBQVBZLG9CQUFJIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGNsYXNzIFVzZXIge1xuICBlbWFpbDogc3RyaW5nO1xuICBwYXNzd29yZDogc3RyaW5nO1xuXG4gIGNvbnN0cnVjdG9yKGVtYWlsOnN0cmluZyA9ICd0b21wZXJzb0B5YWhvby5mcicpIHtcbiAgICB0aGlzLmVtYWlsID0gZW1haWw7XG4gIH1cbn0iXX0=
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidXNlci5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbInVzZXIudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQTtJQUlFLGNBQVksS0FBa0MsRUFBRSxRQUFrQztRQUF0RSxzQkFBQSxFQUFBLDJCQUFrQztRQUFFLHlCQUFBLEVBQUEsMkJBQWtDO1FBQ2hGLElBQUksQ0FBQyxLQUFLLEdBQUcsS0FBSyxDQUFDO1FBQ25CLElBQUksQ0FBQyxRQUFRLEdBQUcsUUFBUSxDQUFDO0lBQzNCLENBQUM7SUFDSCxXQUFDO0FBQUQsQ0FBQyxBQVJELElBUUM7QUFSWSxvQkFBSSIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBjbGFzcyBVc2VyIHtcbiAgZW1haWw6IHN0cmluZztcbiAgcGFzc3dvcmQ6IHN0cmluZztcblxuICBjb25zdHJ1Y3RvcihlbWFpbDpzdHJpbmcgPSAndG9tcGVyc29AeWFob28uZnInLCBwYXNzd29yZDpzdHJpbmcgPSAnUnVkZWJveTc4OD83ODgnKSB7XG4gICAgdGhpcy5lbWFpbCA9IGVtYWlsO1xuICAgIHRoaXMucGFzc3dvcmQgPSBwYXNzd29yZDtcbiAgfVxufSJdfQ==

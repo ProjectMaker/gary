@@ -1,11 +1,11 @@
 import { Injectable } from "@angular/core";
-import { DdpService } from '../ddp/ddp.service';
+import { DdpClientService } from '../ddp/client.service';
 import {Observable} from "rxjs/Observable";
 import { Place } from './place';
 
 @Injectable()
 export class PlaceService {
-  constructor(private ddpService:DdpService) { }
+  constructor(private ddpService:DdpClientService) { }
 
   getPlace():Observable<Array<Place>> {
     return this.ddpService.subscribe('places', 'places');

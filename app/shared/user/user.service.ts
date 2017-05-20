@@ -5,13 +5,15 @@ import { Observable } from "rxjs/Rx";
 import { CanActivate, Router } from '@angular/router';
 import { User } from "./user";
 import { Config } from "../config";
-import { DdpService } from '../ddp/ddp.service';
+import { DdpClientService } from '../ddp/client.service';
 
 @Injectable()
 export class UserService implements CanActivate {
   user:User;
 
-  constructor(private http: Http, private router:Router, private ddpService:DdpService) {}
+  constructor(private http: Http, private router:Router, private ddpService:DdpClientService) {
+    
+  }
 
   login(email:string, password:string) {
     const pass = sha256(password).toString();
@@ -31,6 +33,7 @@ export class UserService implements CanActivate {
   isLoggedIn():boolean {
     return true;
   }
+  
   canActivate() {
     this.router.navigate(['/login']);
     return true;
