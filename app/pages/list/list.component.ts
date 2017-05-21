@@ -31,18 +31,5 @@ export class ListComponent {
       this.ddpService.observe('places').subscribe((event) => console.log(JSON.stringify(event)));
       
     });
-
-    
-    //const sub = this.places.subscribe((value:Object) => { if (parseInt(value['_id']) === 10) sub.unsubscribe();console.log(value['name']) });
-    //const sub = obs.subscribe((value:Place) => { if (parseInt(value._id) === 4) sub.unsubscribe();console.log(value); });
-    //const sub = obs.subscribe((x) => { if (x === 4) sub.unsubscribe();console.log(x)});
-    //this.vehicles.subscribe(() => console.log('oo'));
-    //this.races.subscribe(() => console.log('ok'));
-    /*
-    this.placeService.getPlace().subscribe(places => {
-      this.items = places;
-      const id:number = setTimeout(() => { this.items = [];clearTimeout(id) }, 2000);
-    });
-    */
   }
 }

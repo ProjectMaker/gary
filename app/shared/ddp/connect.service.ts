@@ -18,6 +18,7 @@ export class DdpConnectService {
   }
 
   canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot) {
+    console.log('DdpConnectService, canActivate')
     const activated = this.pingStatus && this.connectedStatus;
     if (!activated) this.router.navigate(['/home']);
     return activated;
