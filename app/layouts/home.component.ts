@@ -4,4 +4,4 @@ import { Component } from "@angular/core";
   selector: "main",
   template: "<page-router-outlet></page-router-outlet>"
 })
-export class AppComponent {}
+export class HomeLayoutComponent {}
