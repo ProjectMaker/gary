@@ -30,10 +30,6 @@ export class UserService implements CanActivate {
     return obsLogin;
   }
 
-  isLoggedIn():boolean {
-    return true;
-  }
-  
   canActivate() {
     this.router.navigate(['/login']);
     return true;
