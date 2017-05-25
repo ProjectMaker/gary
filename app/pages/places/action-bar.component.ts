@@ -3,6 +3,7 @@ import { Router } from '@angular/router';
 import { NgZone } from "@angular/core";
 import { DdpConnectService } from "../../shared/ddp/connect.service";
 import { Subscription } from 'rxjs/Subscription';
+import {RouterExtensions} from "nativescript-angular/router";
 
 @Component({
   selector: "kl-gary-action-bar-places",
@@ -14,22 +15,17 @@ export class ActionBarComponent implements OnDestroy {
 
   @Input() showBack:string;
   @Input() showAdd:string;
-  constructor(private router:Router, private connectService:DdpConnectService, private zone:NgZone) {
-    this.subRoute = this.router.events.subscribe((event:any) => {
+  constructor(private routerExtensions:RouterExtensions, private connectService:DdpConnectService, private zone:NgZone) {
+    //this.subRoute = this.routerExtensions.events.subscribe((event:any) => {
       //console.log(event.url);
-    });
+    //});
   }
-  ngOnInit() {
-    console.log('CONSTRUCTOR ActionBar', this.id, this.showBack);
-  }
+  ngOnInit() {}
 
-  ngOnDestroy() {
-    this.subRoute.unsubscribe();
-    console.log('DESTROY ActionBar', this.id, this.showBack);
-  }
+  ngOnDestroy() {}
 
   onAdd() {
     console.log("Share button tapped!!");
-    this.router.navigate(['/home/info'])
+    this.routerExtensions.navigate(['/home/info'], { clearHistory: true });
   }
 }
