@@ -8,6 +8,7 @@ import { Router } from '@angular/router';
 })
 export class HomeComponent {
   constructor(private router:Router, private connectService:DdpConnectService) {
+    /*
     if (this.connectService.pingStatus) {
       this.router.navigate(['/login']);
     }
@@ -20,5 +21,6 @@ export class HomeComponent {
         () => console.log('done')
       );
     }
+    */
   }
 }
