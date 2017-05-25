@@ -1,0 +1,6 @@
+<ActionBar title="Gary's places">
+  <NavigationButton [visibility]="showBack"></NavigationButton>
+  <ActionItem ios.systemIcon="10" ios.position="right"
+              android.systemIcon="ic_menu_share_holo_light" android.position="actionBar"
+              (tap)="onAdd()" [visibility]="showAdd"></ActionItem>
+</ActionBar>

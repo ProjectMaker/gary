@@ -7,6 +7,8 @@ import { Router } from '@angular/router';
   templateUrl: "pages/home/home.html",
 })
 export class HomeComponent {
+  public show: boolean = true;
+
   constructor(private router:Router, private connectService:DdpConnectService) {
     /*
     if (this.connectService.pingStatus) {
@@ -22,5 +24,13 @@ export class HomeComponent {
       );
     }
     */
+  }
+
+  onTap() {
+    console.log("FirstComponent.Tapped!");
+    this.router.navigate(['/home/info']);
+  }
+  onShare() {
+    console.log("Share button tapped!");
   }
 }
