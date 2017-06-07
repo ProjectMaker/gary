@@ -13,6 +13,11 @@ import { UserService } from "./shared/user/user.service";
 
 import { MapModule } from './modules/map/map.module';
 
+declare var GMSServices: any;
+import * as platform from "platform";
+
+if (platform.isIOS) { GMSServices.provideAPIKey("AIzaSyAtRVvG3Be3xXiZFR7xp-K-9hy4nZ4hMFs"); }
+
 @NgModule({
   imports: [
     NativeScriptModule,
