@@ -11,6 +11,8 @@ import { DdpConnectService } from './shared/ddp/connect.service';
 import { DdpClientService } from './shared/ddp/client.service';
 import { UserService } from "./shared/user/user.service";
 
+import { MapModule } from './modules/map/map.module';
+
 @NgModule({
   imports: [
     NativeScriptModule,
@@ -18,6 +20,7 @@ import { UserService } from "./shared/user/user.service";
     NativeScriptHttpModule,
     NativeScriptRouterModule,
     NativeScriptRouterModule.forRoot(routes),
+    //MapModule,
   ],
   declarations: [
     AppComponent,
