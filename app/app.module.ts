@@ -12,7 +12,6 @@ import { DdpClientService } from './shared/ddp/client.service';
 import { UserService } from "./shared/user/user.service";
 import { GeolocationService } from './shared/geolocation/geolocation.sercice';
 
-import { MapModule } from './modules/map/map.module';
 
 declare var GMSServices: any;
 import * as platform from "platform";
@@ -25,7 +24,6 @@ if (platform.isIOS) { GMSServices.provideAPIKey("AIzaSyAtRVvG3Be3xXiZFR7xp-K-9hy
     NativeScriptHttpModule,
     NativeScriptRouterModule,
     NativeScriptRouterModule.forRoot(routes),
-    //MapModule,
   ],
   declarations: [
     AppComponent,

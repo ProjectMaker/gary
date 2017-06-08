@@ -1,5 +1,4 @@
 import {Component, ViewChild, OnInit } from '@angular/core';
-import { Injectable, EventEmitter } from "@angular/core";
 import { registerElement } from 'nativescript-angular/element-registry';
 import { MapView, Marker, Position } from 'nativescript-google-maps-sdk';
 import { GeolocationService } from '../../shared/geolocation/geolocation.sercice';
@@ -12,10 +11,10 @@ registerElement('MapView', () => MapView);
 @Component({
   moduleId: module.id,
   selector: 'map',
-  templateUrl: 'map.component.html',
+  templateUrl: 'add-place.component.html',
   //styleUrls: ['map.css'],
 })
-export class MapComponent implements OnInit {
+export class AddPlaceComponent implements OnInit {
   zoom = 8;
   bearing = 0;
   tilt = 0;
