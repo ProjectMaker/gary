@@ -1,7 +1,10 @@
-import {Component, ViewChild} from '@angular/core';
+import {Component, ViewChild, OnInit } from '@angular/core';
+import { Injectable, EventEmitter } from "@angular/core";
 import { registerElement } from 'nativescript-angular/element-registry';
 import { MapView, Marker, Position } from 'nativescript-google-maps-sdk';
+import { GeolocationService } from '../../shared/geolocation/geolocation.sercice';
 
+const style = require('./map-style.json');
 
 // Important - must register MapView plugin in order to use in Angular templates
 registerElement('MapView', () => MapView);
@@ -12,19 +15,55 @@ registerElement('MapView', () => MapView);
   templateUrl: 'map.component.html',
   //styleUrls: ['map.css'],
 })
-export class MapComponent {
-
-  latitude =  -33.86;
-  longitude = 151.20;
+export class MapComponent implements OnInit {
   zoom = 8;
   bearing = 0;
   tilt = 0;
   padding = [40, 40, 40, 40];
   mapView: MapView;
-
+  gpsMarker:Marker;
+  centeredOnLocation:boolean = false;
   lastCamera: String;
 
-  constructor() {
+  constructor(private geolocation:GeolocationService) { }
+
+  locationReceived(position:Position) {
+    console.log('GPS Update Received', JSON.stringify(position));
+
+    if (this.mapView && position && !this.centeredOnLocation) {
+      this.mapView.latitude = position.latitude;
+      this.mapView.longitude = position.longitude;
+      this.mapView.zoom = 16;
+      this.centeredOnLocation = true;
+    }
+
+    this.removeMarker(this.gpsMarker);
+    this.gpsMarker = this.addMarker({
+      location: position,
+      title: 'GPS Location'
+    });
+  }
+
+  addMarker(args:AddMarkerArgs) {
+    if (!this.mapView || !args || !args.location) return;
+
+    let marker = new Marker();
+    marker.position = Position.positionFromLatLng(args.location.latitude, args.location.longitude);
+    marker.title = args.title;
+    marker.snippet = args.title;
+    this.mapView.addMarker(marker);
+
+    return marker;
+  }
+
+  removeMarker(marker:Marker) {
+    if (this.mapView && marker) {
+      this.mapView.removeMarker(marker);
+    }
+  }
+
+  ngOnInit() {
+    this.geolocation.start();
   }
 
   //Map events
@@ -32,15 +71,12 @@ export class MapComponent {
     console.log('Map Ready');
 
     this.mapView = event.object;
-
-    console.log("Setting a marker...");
-
-    var marker = new Marker();
-    marker.position = Position.positionFromLatLng(-33.86, 151.20);
-    marker.title = "Sydney";
-    marker.snippet = "Australia";
-    marker.userData = {index: 1};
-    this.mapView.addMarker(marker);
+    this.mapView.setStyle(style);
+    this.geolocation.positionEvent.subscribe(
+      (position:Position) => {
+        this.locationReceived(position);
+      }
+    );
   }
 
   onCoordinateTapped(args) {
@@ -58,4 +94,9 @@ export class MapComponent {
     this.lastCamera = JSON.stringify(args.camera);
   }
 
+}
+
+export class AddMarkerArgs {
+  public location:Position;
+  public title:string;
 }

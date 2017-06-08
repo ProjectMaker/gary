@@ -10,12 +10,12 @@ import { routes, navigatableComponents } from "./app.routing";
 import { DdpConnectService } from './shared/ddp/connect.service';
 import { DdpClientService } from './shared/ddp/client.service';
 import { UserService } from "./shared/user/user.service";
+import { GeolocationService } from './shared/geolocation/geolocation.sercice';
 
 import { MapModule } from './modules/map/map.module';
 
 declare var GMSServices: any;
 import * as platform from "platform";
-
 if (platform.isIOS) { GMSServices.provideAPIKey("AIzaSyAtRVvG3Be3xXiZFR7xp-K-9hy4nZ4hMFs"); }
 
 @NgModule({
@@ -36,6 +36,7 @@ if (platform.isIOS) { GMSServices.provideAPIKey("AIzaSyAtRVvG3Be3xXiZFR7xp-K-9hy
     DdpConnectService,
     DdpClientService,
     UserService,
+    GeolocationService
   ],
   bootstrap: [AppComponent]
 })
