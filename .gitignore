@@ -3,5 +3,5 @@ app/*.js
 node_modules
 platforms
 *.js.map
-app/**/*.js
+*.js
 hooks/
