@@ -15,6 +15,7 @@ registerElement('MapView', () => MapView);
   //styleUrls: ['map.css'],
 })
 export class AddPlaceComponent implements OnInit {
+  places:any[] = [];
   zoom = 8;
   bearing = 0;
   tilt = 0;
@@ -24,7 +25,18 @@ export class AddPlaceComponent implements OnInit {
   centeredOnLocation:boolean = false;
   lastCamera: String;
 
-  constructor(private geolocation:GeolocationService) { }
+  constructor(private geolocation:GeolocationService) {
+    for (var i = 0; i < 3; i++) {
+      this.places.push({ id: i, name: "data items " + i });
+    }
+  }
+
+  onItemTap(e) {
+    console.log('onItemTap');
+    for (let key in e) {
+      console.log(`${key} => ${e[key]}`);
+    }
+  }
 
   locationReceived(position:Position) {
     console.log('GPS Update Received', JSON.stringify(position));
@@ -62,7 +74,7 @@ export class AddPlaceComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.geolocation.start();
+    //this.geolocation.start();
   }
 
   //Map events
