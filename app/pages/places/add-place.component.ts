@@ -4,6 +4,7 @@ import { MapView, Marker, Position } from 'nativescript-google-maps-sdk';
 import { GeolocationService } from '../../shared/geolocation/geolocation.sercice';
 
 const style = require('./map-style.json');
+const _places = require('../../shared/place/place.mock.json');
 
 // Important - must register MapView plugin in order to use in Angular templates
 registerElement('MapView', () => MapView);
@@ -22,13 +23,20 @@ export class AddPlaceComponent implements OnInit {
   padding = [40, 40, 40, 40];
   mapView: MapView;
   gpsMarker:Marker;
+  firstPosition:boolean = true;
   centeredOnLocation:boolean = false;
   lastCamera: String;
 
   constructor(private geolocation:GeolocationService) {
-    for (var i = 0; i < 3; i++) {
-      this.places.push({ id: i, name: "data items " + i });
-    }
+    _places.forEach((place) => {
+      this.places.push({
+        location: {
+          latitude: place.geometry.location.lat,
+          longitude: place.geometry.location.lng,
+        },
+        title: place.name,
+      })
+    });
   }
 
   onItemTap(e) {
@@ -74,7 +82,7 @@ export class AddPlaceComponent implements OnInit {
   }
 
   ngOnInit() {
-    //this.geolocation.start();
+    this.geolocation.start();
   }
 
   //Map events
@@ -86,6 +94,13 @@ export class AddPlaceComponent implements OnInit {
     this.geolocation.positionEvent.subscribe(
       (position:Position) => {
         this.locationReceived(position);
+        if (this.firstPosition) {
+          this.firstPosition = false;
+          this.places.forEach((place) => {
+            this.addMarker(place);
+          })
+        }
+
       }
     );
   }
