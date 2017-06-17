@@ -11,7 +11,7 @@ export const routes = [
   { path: 'home', component: HomeComponent },
   { path: 'list', component: ListComponent, canActivate: [UserService] },
   { path: 'login', component: LoginComponent, canActivate: [DdpConnectService] },
-  { path: '', component: AddPlaceComponent },
+  { path: '', component: ListComponent },
 ];
 
 export const navigatableComponents = [

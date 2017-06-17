@@ -10,12 +10,18 @@ import { routes, navigatableComponents } from "./app.routing";
 import { DdpConnectService } from './shared/ddp/connect.service';
 import { DdpClientService } from './shared/ddp/client.service';
 import { UserService } from "./shared/user/user.service";
+import { PlaceService } from "./shared/place/place.service";
+import { PlaceMockService } from "./shared/place/place.mock.service";
 import { GeolocationService } from './shared/geolocation/geolocation.sercice';
-
+import { Config } from "./shared/config";
 
 declare var GMSServices: any;
 import * as platform from "platform";
 if (platform.isIOS) { GMSServices.provideAPIKey("AIzaSyAtRVvG3Be3xXiZFR7xp-K-9hy4nZ4hMFs"); }
+
+const provideMyService = () => {
+  return { provide: PlaceService, useFactory: (ddpClient:DdpClientService) => new PlaceMockService(ddpClient), deps: [DdpClientService] }
+}
 
 @NgModule({
   imports: [
@@ -34,7 +40,8 @@ if (platform.isIOS) { GMSServices.provideAPIKey("AIzaSyAtRVvG3Be3xXiZFR7xp-K-9hy
     DdpConnectService,
     DdpClientService,
     UserService,
-    GeolocationService
+    GeolocationService,
+    provideMyService(),
   ],
   bootstrap: [AppComponent]
 })

@@ -8,9 +8,6 @@ import { Place } from "../../shared/place/place";
   selector: "list",
   templateUrl: "pages/list/list.html",
   styleUrls: ["pages/list/list-common.css", "pages/list/list.css"],
-  providers: [
-    PlaceService,
-  ],
 })
 export class ListComponent {
   places:Array<Place> = [];
@@ -24,11 +21,11 @@ export class ListComponent {
   }
 
   ngOnInit() {
-    this.placeService.getPlace().subscribe((places) => {
+    this.placeService.getPlaces().subscribe((places) => {
       this.zone.run(() => {
         console.log(JSON.stringify(places)); this.places = places
       });
-      this.ddpService.observe('places').subscribe((event) => console.log(JSON.stringify(event)));
+      //this.ddpService.observe('places').subscribe((event) => console.log(JSON.stringify(event)));
       
     });
   }
