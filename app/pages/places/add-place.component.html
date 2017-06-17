@@ -10,8 +10,8 @@
              (cameraChanged)="onCameraChanged($event)"></MapView>
 
   </StackLayout>
-  <StackLayout row="1" height="100%">
-    <ListView [items]="places" separatorColor="transparent" class="list-group" height="100%">
+  <StackLayout row="1" height="100%" id="tom">
+    <ListView [items]="places" separatorColor="transparent" class="list-group" height="100%" (itemTap)="onItemTap($event)">
       <ng-template let-item="item" let-i="index" let-odd="odd" let-even="even">
         <FlexboxLayout backgroundColor="#faebd7">
           <Image src="res://icon" stretch="none" horizontalAlignment="center"></Image>

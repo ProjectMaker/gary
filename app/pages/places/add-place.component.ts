@@ -1,4 +1,7 @@
-import {Component, ViewChild, OnInit } from '@angular/core';
+import {Component, ViewChild, OnInit} from '@angular/core';
+import { Page } from 'ui/page';
+import {Image} from 'ui/image';
+import { ImageSource } from "image-source";
 import { registerElement } from 'nativescript-angular/element-registry';
 import { MapView, Marker, Position } from 'nativescript-google-maps-sdk';
 import { GeolocationService } from '../../shared/geolocation/geolocation.sercice';
@@ -17,6 +20,8 @@ registerElement('MapView', () => MapView);
 })
 export class AddPlaceComponent implements OnInit {
   places:any[] = [];
+  markers:Array<Marker> = [];
+  markerSelected:Marker;
   zoom = 8;
   bearing = 0;
   tilt = 0;
@@ -27,7 +32,7 @@ export class AddPlaceComponent implements OnInit {
   centeredOnLocation:boolean = false;
   lastCamera: String;
 
-  constructor(private geolocation:GeolocationService) {
+  constructor(private geolocation:GeolocationService, private page:Page) {
     _places.forEach((place) => {
       this.places.push({
         location: {
@@ -39,11 +44,28 @@ export class AddPlaceComponent implements OnInit {
     });
   }
 
-  onItemTap(e) {
-    console.log('onItemTap');
-    for (let key in e) {
-      console.log(`${key} => ${e[key]}`);
+  onItemTap(event) {
+    const marker = this.markers.find((marker) => {
+      return this.places[event.index].location.latitude === marker.position.latitude
+        && this.places[event.index].location.longitude === marker.position.longitude
+    })
+    let image;
+    if (this.markerSelected) {
+      image = new Image();
+      image.src = 'res://shooting';
+      this.markerSelected.icon = image;
     }
+    this.markerSelected = marker;
+    image = new Image();
+    let urlImg = 'http://map.google.com/mapfiles/kml/pushpin/grn-pushpin.png';
+    urlImg= 'res://monkey-export';
+    image.src = urlImg;
+    //image.src = 'http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin';
+    console.log('**************************************************', image.imageSource);
+    image.width = 25;
+    image.height = 25;
+    marker.icon = image;
+    console.log('onItemTaps', marker.icon);
   }
 
   locationReceived(position:Position) {
@@ -68,8 +90,13 @@ export class AddPlaceComponent implements OnInit {
 
     let marker = new Marker();
     marker.position = Position.positionFromLatLng(args.location.latitude, args.location.longitude);
+    this.mapView.addMarker(marker);
+
     marker.title = args.title;
     marker.snippet = args.title;
+    const icon = new Image();
+    icon.src = 'res://shooting';
+    marker.icon = icon;
     this.mapView.addMarker(marker);
 
     return marker;
@@ -82,6 +109,7 @@ export class AddPlaceComponent implements OnInit {
   }
 
   ngOnInit() {
+
     this.geolocation.start();
   }
 
@@ -97,7 +125,7 @@ export class AddPlaceComponent implements OnInit {
         if (this.firstPosition) {
           this.firstPosition = false;
           this.places.forEach((place) => {
-            this.addMarker(place);
+            this.markers.push(this.addMarker(place));
           })
         }
 
