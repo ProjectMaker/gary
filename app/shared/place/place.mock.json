@@ -1,0 +1,794 @@
+[
+  {
+    "geometry" : {
+      "location" : {
+        "lat" : 37.7749295,
+        "lng" : -122.4194155
+      },
+      "viewport" : {
+        "northeast" : {
+          "lat" : 37.812,
+          "lng" : -122.3482
+        },
+        "southwest" : {
+          "lat" : 37.70339999999999,
+          "lng" : -122.527
+        }
+      }
+    },
+    "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+    "id" : "1b9ea3c094d3ac23c9a3afa8cd4d8a41f05de50a",
+    "name" : "San Francisco",
+    "photos" : [
+      {
+        "height" : 2118,
+        "html_attributions" : [
+          "\u003ca href=\"https://maps.google.com/maps/contrib/102117093789730100872/photos\"\u003eJean Michel DHAINAUT\u003c/a\u003e"
+        ],
+        "photo_reference" : "CmRaAAAAFj0R6T5nQtcFp0-YraP65mAyQiXpPINpgT71F535SJVbd8LrgCXKhtCMjP_uhBS-UxFJlRtpk9kR037PGU3xTJPd2t8XiRz4FLA5ju4-jcL8EEkfMA9Mf5TK66vqUHP5EhB5jDhWhjJHqS1ceOVjMtyfGhQ6hRIWfRlL0iFK9QfFg5j2q74pSA",
+        "width" : 3765
+      }
+    ],
+    "place_id" : "ChIJIQBpAG2ahYAR_6128GcTUEo",
+    "reference" : "CmRbAAAAIb0Kpf--TLfZvXWMN_sJKsTlzECAqr0-RtKkkruSOy5LrSpOTFYMllAUo2pck5MtCeD4e4mbWlkL3sh16u3LYwL80gb7EdGLXQ-e7JQYiB28Ygw0b2ASYJwdqjT_VJcAEhBcyq5lVFs2lcp-FAYKeQj8GhRDMEOKc620jJyB-uvTmvNuCzZiDA",
+    "scope" : "GOOGLE",
+    "types" : [ "locality", "political" ],
+    "vicinity" : "San Francisco"
+  },
+  {
+    "geometry" : {
+      "location" : {
+        "lat" : 37.7867167,
+        "lng" : -122.4111737
+      },
+      "viewport" : {
+        "northeast" : {
+          "lat" : 37.7881962302915,
+          "lng" : -122.4098846697085
+        },
+        "southwest" : {
+          "lat" : 37.7854982697085,
+          "lng" : -122.4125826302915
+        }
+      }
+    },
+    "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+    "id" : "3344890deedcb97b1c2d64814f92a02510ba39c8",
+    "name" : "Clift San Francisco",
+    "photos" : [
+      {
+        "height" : 4744,
+        "html_attributions" : [
+          "\u003ca href=\"https://maps.google.com/maps/contrib/114937580614387417622/photos\"\u003eClift San Francisco\u003c/a\u003e"
+        ],
+        "photo_reference" : "CmRaAAAAmO3pNvPFCdkJ7RQb75QfnqwmrzCRZcfxUAHcj2-gcB5m17TmROPd6DqBcowcO169PkT5l1wZPY-V9uEjSiMg0gVFTptHZFSGfFpFOZW2M9AswVLXKQhMOJ7mtt7Eh__REhCkxxsNceYtw8AoyAeonR9KGhS6GxHqRZMW94NuqLjKw5KnW4Sbpw",
+        "width" : 3795
+      }
+    ],
+    "place_id" : "ChIJFUBxSY6AhYARwOaLV7TsLjw",
+    "price_level" : 4,
+    "rating" : 4.1,
+    "reference" : "CmRRAAAAA7Zlm1KwrKwh0Ws35xIEbwzQacYuvKO0IGLHO7P3XnkeloiPvh8fexDXvkg9kRqo6P02Ns_tG7pF8dK76_2KmthDuWypiIvLsHIMyODg9yU3Xu5EX0UwultyCzr6Pc7kEhCHuNU7poPtgZq2WXsSskGKGhShtfjOLaqa5aMN0Jo2bdAlalELGA",
+    "scope" : "GOOGLE",
+    "types" : [ "lodging", "point_of_interest", "establishment" ],
+    "vicinity" : "495 Geary Street, San Francisco"
+  },
+  {
+    "geometry" : {
+      "location" : {
+        "lat" : 37.78522820000001,
+        "lng" : -122.4056393
+      },
+      "viewport" : {
+        "northeast" : {
+          "lat" : 37.7866677802915,
+          "lng" : -122.4041687697085
+        },
+        "southwest" : {
+          "lat" : 37.7839698197085,
+          "lng" : -122.4068667302915
+        }
+      }
+    },
+    "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+    "id" : "bfac3528e6ab6fba009f11c7d45da41a244f78c5",
+    "name" : "Hotel Zelos San Francisco",
+    "opening_hours" : {
+      "open_now" : true,
+      "weekday_text" : []
+    },
+    "photos" : [
+      {
+        "height" : 5000,
+        "html_attributions" : [
+          "\u003ca href=\"https://maps.google.com/maps/contrib/113064104720066441975/photos\"\u003eHotel Zelos San Francisco\u003c/a\u003e"
+        ],
+        "photo_reference" : "CmRaAAAA1SKB9fnTZyV2S01IBlAnZfqTn2VpBYxPOAEkC-EtKyaqj8nNB4kuaBaevS1XGwJGwHeezPuf4MnabEVqvB0LQKBOWA7bCEcIVjIj53M85QVa9njGl2tNaglCxnMB12r0EhDZDtO8Y5Lbrcwz8u4H5If-GhT4Qpo4h8KC23-svyF2RrcVDDgmgw",
+        "width" : 3702
+      }
+    ],
+    "place_id" : "ChIJaasyI4aAhYARSkMTdc_1FyU",
+    "price_level" : 4,
+    "rating" : 4.3,
+    "reference" : "CmRRAAAAeccKHoN4U3XF9zpjDXgU6w5PtnKhwqDHOJQDSw20nCeD0hs3c9LSjZHqy1zFmuddxoiEEqudrhLRVdWZuaTN7LjBY4ExiIZurU_xIR95Lny148aT-oiRaS1GVugt0cqSEhCadG-yYd9M-WShLQWACMkVGhQv3QBXo3dMx7Ky7RkGY6etRonsww",
+    "scope" : "GOOGLE",
+    "types" : [ "lodging", "point_of_interest", "establishment" ],
+    "vicinity" : "12 4th Street, San Francisco"
+  },
+  {
+    "geometry" : {
+      "location" : {
+        "lat" : 37.7858718,
+        "lng" : -122.407731
+      },
+      "viewport" : {
+        "northeast" : {
+          "lat" : 37.7872081302915,
+          "lng" : -122.4064845697085
+        },
+        "southwest" : {
+          "lat" : 37.7845101697085,
+          "lng" : -122.4091825302915
+        }
+      }
+    },
+    "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+    "id" : "2fc980e37b3c10679614b622e4e37f80aef68157",
+    "name" : "Hotel Union Square",
+    "photos" : [
+      {
+        "height" : 1334,
+        "html_attributions" : [
+          "\u003ca href=\"https://maps.google.com/maps/contrib/108423456758808242452/photos\"\u003eHotel Union Square\u003c/a\u003e"
+        ],
+        "photo_reference" : "CmRaAAAAA7QsPImE92AU2TneHmMHTQt_O4UhXdHWvfio5cuQx950JHQYQxekK5SEhSwkn04nyAIuO_mOszMIzVSQQtw7SZaRCrUeaniQpHXokhwoEdRRFZ0ujya9YifC-ZMYLyyeEhBBsyigQP2x3ZxLFI-RcgndGhSSDRyi8XrzDo8hZiml5Vxv5pDk0w",
+        "width" : 2000
+      }
+    ],
+    "place_id" : "ChIJH9k4UI-AhYARIpIiJJI2qjg",
+    "rating" : 3.8,
+    "reference" : "CmRRAAAAFVNAHYseIw-KcChWPRwHulH86qGey5hM-fJlkHtis85dzzIN6oKSZdqtVmt6-IMoioBY1A8bJrLejVza_SV0P06ESTnriOlJhoSs-Y_12H-enHYnwWIkwkVfPvRNUhuuEhBIRDq4GPe7seBQR-NkLpH0GhQfsF8jjSmi_PrnQL4hKS05SpH0Yw",
+    "scope" : "GOOGLE",
+    "types" : [ "lodging", "point_of_interest", "establishment" ],
+    "vicinity" : "114 Powell Street, San Francisco"
+  },
+  {
+    "geometry" : {
+      "location" : {
+        "lat" : 37.784963,
+        "lng" : -122.4051515
+      },
+      "viewport" : {
+        "northeast" : {
+          "lat" : 37.7863749802915,
+          "lng" : -122.4037227197085
+        },
+        "southwest" : {
+          "lat" : 37.7836770197085,
+          "lng" : -122.4064206802915
+        }
+      }
+    },
+    "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+    "id" : "f5bf41ca59341fa02820bfa372a30eace9554e6e",
+    "name" : "The Mosser Hotel",
+    "photos" : [
+      {
+        "height" : 2048,
+        "html_attributions" : [
+          "\u003ca href=\"https://maps.google.com/maps/contrib/101572550943214601982/photos\"\u003eKitty Burgers\u003c/a\u003e"
+        ],
+        "photo_reference" : "CmRaAAAA0BT563U4b2qrK0NnBCTtmpSPo4-NqJP2W9eVv6ryDoW42JGgpBmP5qsQU9WGu9yWQvKArbhBpt17zzofCdZL15F41iCvRy7cd3RFrp4AhAkggzUVpjYmmCtBg4FOc-5OEhCdivBdkaUQUnnbauZ1kfcvGhS9PMESeKcAlSdzU6wONRETeTNQRg",
+        "width" : 1536
+      }
+    ],
+    "place_id" : "ChIJFRJ1OYaAhYAR5tbgFDwAHd4",
+    "rating" : 3.9,
+    "reference" : "CmRSAAAAqt16nckBYF-ofJN1eyJH0TiObywaGAEjiPlcSVT8uC_CIP--Hcj1h6SUGYuw-I_vSotMW1te2DzOiSf0_TcTHGN92sRESbaSuezhdRGLFkslBU1FWQvdVjNfLYYLSdQXEhBsO5qCpv64vy_sYmhVnwT3GhTmYCOsFuM7eEyF7Pt0M1govqnp0Q",
+    "scope" : "GOOGLE",
+    "types" : [ "lodging", "point_of_interest", "establishment" ],
+    "vicinity" : "54 4th Street, San Francisco"
+  },
+  {
+    "geometry" : {
+      "location" : {
+        "lat" : 37.786211,
+        "lng" : -122.408212
+      },
+      "viewport" : {
+        "northeast" : {
+          "lat" : 37.7875722802915,
+          "lng" : -122.4067635197085
+        },
+        "southwest" : {
+          "lat" : 37.7848743197085,
+          "lng" : -122.4094614802915
+        }
+      }
+    },
+    "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+    "id" : "2d9e90b7290b0f0dcd01e28cacac7520a61475c9",
+    "name" : "The Herbert Hotel",
+    "opening_hours" : {
+      "open_now" : true,
+      "weekday_text" : []
+    },
+    "photos" : [
+      {
+        "height" : 1970,
+        "html_attributions" : [
+          "\u003ca href=\"https://maps.google.com/maps/contrib/109373564651781943279/photos\"\u003eRoss Brinson\u003c/a\u003e"
+        ],
+        "photo_reference" : "CmRaAAAAgkRu-4h-lMASn8uVfniDN_EbrfW-3A0_EpuMpokhZ2bbVZJMNsvaCIgSCKHtSZ13_XVqCf1I2vVGdBBOBEUUB6orZi91IXo7WmXCUSHvn3R7uPTA0joablgPyemvoxy8EhDQx8MrGcxydEzb8lvatRV0GhQmVuzm-NbGfuG19vZMPEY8sNnq1w",
+        "width" : 6292
+      }
+    ],
+    "place_id" : "ChIJAe1uR4-AhYARPvKOqyGhdQo",
+    "rating" : 3.8,
+    "reference" : "CmRRAAAAQtfOGjW5vAJqNlf7TiuBsxnlyTRxFgh3fwy5Uh2IZmOSbWohTESKjtA3mHL6D5tEV4IIBktcVyXW7yRFZ5syTmczOWraN_qrKNyEhqEwILaemdSL4N15QE0hCAF3CXVtEhBtv2i30ThwEYO59lsWOdFCGhTBHRsT7JRzt1C7xcyAHQ2qTbuf3w",
+    "scope" : "GOOGLE",
+    "types" : [ "lodging", "point_of_interest", "establishment" ],
+    "vicinity" : "161 Powell Street, San Francisco"
+  },
+  {
+    "geometry" : {
+      "location" : {
+        "lat" : 37.785328,
+        "lng" : -122.408484
+      },
+      "viewport" : {
+        "northeast" : {
+          "lat" : 37.7867252302915,
+          "lng" : -122.4071449697085
+        },
+        "southwest" : {
+          "lat" : 37.7840272697085,
+          "lng" : -122.4098429302915
+        }
+      }
+    },
+    "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+    "id" : "44fea1b9b8c9dcd6deefcda42b461a6129ee51f2",
+    "name" : "Hotel Abri",
+    "opening_hours" : {
+      "open_now" : true,
+      "weekday_text" : []
+    },
+    "photos" : [
+      {
+        "height" : 1536,
+        "html_attributions" : [
+          "\u003ca href=\"https://maps.google.com/maps/contrib/115593640164002290375/photos\"\u003eHotel Abri\u003c/a\u003e"
+        ],
+        "photo_reference" : "CmRaAAAAChuqhult2jUmT0nyv9-tSLcEsZDmwZWOpiduAoXwu2P5HAHLOc6r75jx_srs1r-YvxpKI-a3P_6Xip-nX9q6xePAiGycyyku03k2XLBlQy6G4QpaTSj4AMp4eB1-qNWQEhDzovJWme0sFhRdi08wE-ZkGhRI__aESthzV3LQiuW4lbY4s3-eBA",
+        "width" : 2304
+      }
+    ],
+    "place_id" : "ChIJBWN9Z4-AhYARYyAxfLwT-h8",
+    "rating" : 4,
+    "reference" : "CmRRAAAAqRSYoVpgbFO7DEwUp8PFwX9y8V3EOlUVscinJP_KIMCx0owAIfagDCZcwsyhHHo8FrY1Kno-UAVMj0ONY9mlniZ_UoOoo0N0HcUozdx7IUFnw77bHSb5oPnUHM2pfPS5EhB8lNEPZwZhL-x_IrfLn71mGhQz_eI0fworbO7cBArQRJ6yFv_XWw",
+    "scope" : "GOOGLE",
+    "types" : [ "lodging", "point_of_interest", "establishment" ],
+    "vicinity" : "127 Ellis Street, San Francisco"
+  },
+  {
+    "geometry" : {
+      "location" : {
+        "lat" : 37.7852279,
+        "lng" : -122.404389
+      },
+      "viewport" : {
+        "northeast" : {
+          "lat" : 37.7864061302915,
+          "lng" : -122.4029967197085
+        },
+        "southwest" : {
+          "lat" : 37.7837081697085,
+          "lng" : -122.4056946802915
+        }
+      }
+    },
+    "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+    "id" : "f007d2f91c0070ebdfec60275baa33623f0b771b",
+    "name" : "San Francisco Marriott Marquis",
+    "opening_hours" : {
+      "open_now" : true,
+      "weekday_text" : []
+    },
+    "photos" : [
+      {
+        "height" : 1666,
+        "html_attributions" : [
+          "\u003ca href=\"https://maps.google.com/maps/contrib/116211684039937392083/photos\"\u003eSan Francisco Marriott Marquis\u003c/a\u003e"
+        ],
+        "photo_reference" : "CmRaAAAAJVUESrP3cKwRO6qjuvm4SJ2pyCOz3TTwBW7WRZuonWvC2JR4Y3pxgDTaMYFTqMlm8Z9Z8-wV9_UyWc5e-WfEOQZ8RkhUTaCutxoqsS6JiQfFlbowsl1FpW12wAcwE9ZUEhDaaU1Fz4aOA_qB2yAhO-dvGhSFtW2xZ9mygAcWEkR2bt9dMhnFzw",
+        "width" : 2500
+      }
+    ],
+    "place_id" : "ChIJcT5nNoaAhYARVdbyW3zPwus",
+    "rating" : 4.3,
+    "reference" : "CmRSAAAAS9a3AQSCeKxJTM7LXmtK6KXtk4ndqZVAoPw_BPLNFNXgV0xpGwUNssP3RTHz_fjSX5NEl_Yge6PnjpwWO0Nm-e1dD6ed91wIrLDIby8hPZ_E64urgj6sePXmjs12izsKEhCv91yaAHDlXKa-wlj2RoGqGhQU4K8jenQXnS43kI1ISLglCgC61w",
+    "scope" : "GOOGLE",
+    "types" : [ "lodging", "restaurant", "food", "point_of_interest", "establishment" ],
+    "vicinity" : "780 Mission Street, San Francisco"
+  },
+  {
+    "geometry" : {
+      "location" : {
+        "lat" : 37.785568,
+        "lng" : -122.408581
+      },
+      "viewport" : {
+        "northeast" : {
+          "lat" : 37.7868422802915,
+          "lng" : -122.4072166697085
+        },
+        "southwest" : {
+          "lat" : 37.78414431970851,
+          "lng" : -122.4099146302915
+        }
+      }
+    },
+    "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+    "id" : "f052f9761fec9c594502f9ea10706e5fac9478e4",
+    "name" : "Hotel Fusion",
+    "opening_hours" : {
+      "open_now" : true,
+      "weekday_text" : []
+    },
+    "photos" : [
+      {
+        "height" : 3744,
+        "html_attributions" : [
+          "\u003ca href=\"https://maps.google.com/maps/contrib/112571000091010561964/photos\"\u003eHotel Fusion\u003c/a\u003e"
+        ],
+        "photo_reference" : "CmRaAAAAXYjz_JuW6tj19Soj6T8zqr0sXX004zGPojAGKQhRuQqZMWUEeMc7sCCSDo52I7UPqZ5Y3U0xiu-RPC5dgy5Ee9oz_oEU1VbrHVxylIwLIM3SA4jXuslaMYpyw23kkyYkEhCOL-0Umv-9afnwtjUKwNUvGhT9ZBVxn-nOGHa56Cm8gc6kR5oKuQ",
+        "width" : 5616
+      }
+    ],
+    "place_id" : "ChIJ0SMraI-AhYAREeJAvm2_yGM",
+    "rating" : 3.6,
+    "reference" : "CmRRAAAANJwGB2MilVZZch3vpkoR6gGw7lZJF5ziCO1hIad-zoAhqoSVEUxsgMUw1kJWzOrErr4Qh-lSWlKU8baW566pOHTmJNRgxmaoyjzqnW3XMw1ijQIRJnI9dhT8If56Me5iEhBZ9pV-T8BUeOEg3tgxT5b4GhQ48RyW0ypMdzf2-HQiMnKk__XbKA",
+    "scope" : "GOOGLE",
+    "types" : [ "lodging", "point_of_interest", "establishment" ],
+    "vicinity" : "140 Ellis Street, San Francisco"
+  },
+  {
+    "geometry" : {
+      "location" : {
+        "lat" : 37.787035,
+        "lng" : -122.408027
+      },
+      "viewport" : {
+        "northeast" : {
+          "lat" : 37.7883751802915,
+          "lng" : -122.4067488197085
+        },
+        "southwest" : {
+          "lat" : 37.7856772197085,
+          "lng" : -122.4094467802915
+        }
+      }
+    },
+    "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+    "id" : "706e67cbba13081ca7174a6c244a2599328a431c",
+    "name" : "Hotel Stratford",
+    "photos" : [
+      {
+        "height" : 1366,
+        "html_attributions" : [
+          "\u003ca href=\"https://maps.google.com/maps/contrib/117637923464552835558/photos\"\u003eHotel Stratford\u003c/a\u003e"
+        ],
+        "photo_reference" : "CmRaAAAAuGTUjDNQB6pg_ukZFvt5o1xCxj1FufWHssrIBrnLWB844nX-12xWkONCuc9NMOXnFul_aj1oEYRFKSz8m6uZOT5SAQssCFCnG4ntXVg5SQfnG142pA-xMCbsTnNb1pNjEhA9gpFaQ0l7Jy9_F2vwOr_AGhTqxIiKgbLh7ROkR4U2rvNEhK8wyA",
+        "width" : 2048
+      }
+    ],
+    "place_id" : "ChIJA4SHI4-AhYARqIvtR8G7Epk",
+    "rating" : 3.5,
+    "reference" : "CmRSAAAAC-a8mzbCRvZxBbuqo2W-99cZRKyROaKD2qaOnyt2VAf3YgMWxYEMImIN60P3498erfTEE0a14H-Feogl1o1FNCBnvNheTGDLOY3xCnA4kGlpAigG0ga38HT3bDnVvRkBEhAkKsPF0uDUx7voOkNX_QOgGhSUrLID3-vZnTuZ_NmVO6kiZcRYlQ",
+    "scope" : "GOOGLE",
+    "types" : [ "lodging", "point_of_interest", "establishment" ],
+    "vicinity" : "242 Powell Street, San Francisco"
+  },
+  {
+    "geometry" : {
+      "location" : {
+        "lat" : 37.786675,
+        "lng" : -122.408365
+      },
+      "viewport" : {
+        "northeast" : {
+          "lat" : 37.7880400302915,
+          "lng" : -122.4068868697085
+        },
+        "southwest" : {
+          "lat" : 37.78534206970851,
+          "lng" : -122.4095848302915
+        }
+      }
+    },
+    "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+    "id" : "280b1ed0177d3f45b8fe383c5d34792f12476f12",
+    "name" : "Villa Florence Hotel",
+    "opening_hours" : {
+      "open_now" : true,
+      "weekday_text" : []
+    },
+    "photos" : [
+      {
+        "height" : 533,
+        "html_attributions" : [
+          "\u003ca href=\"https://maps.google.com/maps/contrib/109196036315599938337/photos\"\u003eVilla Florence Hotel\u003c/a\u003e"
+        ],
+        "photo_reference" : "CmRaAAAAW9YB03R4Aj3OdODn0F7UXU1gHs2wX6HNPiKCauFAuChmS0hQfvF2IUBHOfshfWtXMCgWeeeXetkkhzNyp13IuRFqRkhUYZf1yTdPjS5VKDk5CUioo7gGJgs4hB18X77_EhCnS2yubDrH6Nze-_MfADuCGhTTPecUYs6WinH-xM6NVeosXtHBXQ",
+        "width" : 800
+      }
+    ],
+    "place_id" : "ChIJJ3hAI4-AhYAR0hjfpLgCjEw",
+    "rating" : 3.9,
+    "reference" : "CmRRAAAAuLCuwdSlm6YT-uqOTL4TfUXCO-tsAeXpa9Zwf2v8ed1QYz2vVffrZ2kDcQ5e7UbNW6ScTqWw28KsITrvgpLmjUlEcLWaia3j4QKUJ7yLbKCiBq8XL89xb6J-eL9Jk-l3EhAQCiT2Y5fRenb4pfMT35-1GhQcZuEv7_oVgdx0rIi08UJfAVCHSg",
+    "scope" : "GOOGLE",
+    "types" : [ "lodging", "point_of_interest", "establishment" ],
+    "vicinity" : "225 Powell Street, San Francisco"
+  },
+  {
+    "geometry" : {
+      "location" : {
+        "lat" : 37.7847184,
+        "lng" : -122.4087165
+      },
+      "viewport" : {
+        "northeast" : {
+          "lat" : 37.7861682302915,
+          "lng" : -122.4073193197085
+        },
+        "southwest" : {
+          "lat" : 37.7834702697085,
+          "lng" : -122.4100172802915
+        }
+      }
+    },
+    "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+    "id" : "8882ed85da7c00183fee6648236a65e79b930837",
+    "name" : "Parc 55 San Francisco - A Hilton Hotel",
+    "opening_hours" : {
+      "open_now" : true,
+      "weekday_text" : []
+    },
+    "photos" : [
+      {
+        "height" : 1448,
+        "html_attributions" : [
+          "\u003ca href=\"https://maps.google.com/maps/contrib/103307070037610524400/photos\"\u003eParc 55 San Francisco - A Hilton Hotel\u003c/a\u003e"
+        ],
+        "photo_reference" : "CmRaAAAAPcytkDzOU6czXLCnnzlX8PDl_NmgRfAcDNVXRtXIeV4gACLvPUJDwWBxoXlJ2v1PYu0bvaRiTUJKdVeIDez2vabibTtnQ12xM5GbtsS50uQLqqGbvTjAFasWTfJJUMelEhDcjKxLr0Eql1761NXUtRHrGhTSnJ_nMvIUT3wYVUA6abS5f901xw",
+        "width" : 1447
+      }
+    ],
+    "place_id" : "ChIJlzWFioWAhYARpMwCip6lb_M",
+    "rating" : 4.1,
+    "reference" : "CmRSAAAAeWxUQ-BrEOf3a_GD_gV7kCWibOzVlztEq0QqTNPvgG9v62JPYPWiO_9oWE1dZWQO70cwF57_HwVlffqjz_K2KxSYIcchPb10hcZVMGZyNvWYoD_OgSFVc6nF4kTqH2d-EhAZBFaFJwrvPsIdcI5R49b8GhQt_H3vje7yBnXsdTws-URnZlUrnw",
+    "scope" : "GOOGLE",
+    "types" : [ "lodging", "point_of_interest", "establishment" ],
+    "vicinity" : "55 Cyril Magnin Street, San Francisco"
+  },
+  {
+    "geometry" : {
+      "location" : {
+        "lat" : 37.7857831,
+        "lng" : -122.4093486
+      },
+      "viewport" : {
+        "northeast" : {
+          "lat" : 37.78716028029149,
+          "lng" : -122.4079117197085
+        },
+        "southwest" : {
+          "lat" : 37.7844623197085,
+          "lng" : -122.4106096802915
+        }
+      }
+    },
+    "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+    "id" : "8af28f476c33f853a7d8c57b086ab8159925cf05",
+    "name" : "Hotel Nikko San Francisco",
+    "opening_hours" : {
+      "open_now" : true,
+      "weekday_text" : []
+    },
+    "photos" : [
+      {
+        "height" : 1000,
+        "html_attributions" : [
+          "\u003ca href=\"https://maps.google.com/maps/contrib/109630320652243725328/photos\"\u003eHotel Nikko San Francisco\u003c/a\u003e"
+        ],
+        "photo_reference" : "CmRaAAAALXGjHWYJdoGD6tVWFwvhtPaGY2XaK4CRshdp_AzBTDX08Be0eAqL3PY8voFJTXw0vOmo6iL5Sljn0vzU3HG_KZu_k3Xe-YKKqmx4HpNQzc9tVP_go9N89hzdm3BnBxwjEhCV_9syfG2_r8mpdWqEMTA8GhSK9hHLDsfIlcZk3TbsuUSlVUbf8A",
+        "width" : 1600
+      }
+    ],
+    "place_id" : "ChIJf215c4-AhYAR1jYbKf_Y5X8",
+    "rating" : 4.3,
+    "reference" : "CmRRAAAAHFV8zhZCnCeDAyGVBsse58rrryXHMhC4f-a9EziIAtTWu7kBZuC6Tke7StWKZLENlVXwu8hN7vuT1HwB-Ez5RRgnuPTF37fq6rYh8I3OFVuiK7-VTnO6rvyh9_nmBkspEhC36LIS_fVg7zZWSVEfWfRAGhQoTxz6msBdPmkl7vOBdnp2KF_c4g",
+    "scope" : "GOOGLE",
+    "types" : [ "lodging", "point_of_interest", "establishment" ],
+    "vicinity" : "222 Mason Street, San Francisco"
+  },
+  {
+    "geometry" : {
+      "location" : {
+        "lat" : 37.7870953,
+        "lng" : -122.4089792
+      },
+      "viewport" : {
+        "northeast" : {
+          "lat" : 37.7885332302915,
+          "lng" : -122.4076490697085
+        },
+        "southwest" : {
+          "lat" : 37.7858352697085,
+          "lng" : -122.4103470302915
+        }
+      }
+    },
+    "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+    "id" : "00dc10f160cff54f9e9815015f4f57c44327e8d9",
+    "name" : "Handlery Union Square Hotel",
+    "photos" : [
+      {
+        "height" : 4912,
+        "html_attributions" : [
+          "\u003ca href=\"https://maps.google.com/maps/contrib/112311730646477194456/photos\"\u003ePanupong Yokyongsakul\u003c/a\u003e"
+        ],
+        "photo_reference" : "CmRaAAAA09VrCOjMASyPnyYawzbiLPz-mdFn9C2Rw_uhvqc_ockKr-1p-kfn9mRu2o__IP75BaLWE1-E1tEIaXzYoZ1DoVXqZfLgdKXry-gjt9eCh79a-swHsqZhFqGcRJWtTIQxEhDZnnUIYpjHFTnio5C0ulG4GhR4BUXAr4fvPZ080hpw1WFrCX4o0A",
+        "width" : 3264
+      }
+    ],
+    "place_id" : "ChIJx2mEHY-AhYARPrKctew-ZFc",
+    "rating" : 3.7,
+    "reference" : "CmRRAAAASvlQDNPmIxq_OAYMbYrBT-y-LurBjdn4ZrLiaEPW9OKSmu8QEEIERIvxOz3D9M5kv54w3OZu4qJTigcNRGzXs206boOrVbWcU34uPHyfl7y9_5XAvI8LA52AZVuyTMjpEhAsqTskvGgyd8XBuwTCBOdDGhQxASIl75jUEqfXMI5K4_WTdPTvig",
+    "scope" : "GOOGLE",
+    "types" : [ "lodging", "point_of_interest", "establishment" ],
+    "vicinity" : "351 Geary Street, San Francisco"
+  },
+  {
+    "geometry" : {
+      "location" : {
+        "lat" : 37.783366,
+        "lng" : -122.407055
+      },
+      "viewport" : {
+        "northeast" : {
+          "lat" : 37.7847149802915,
+          "lng" : -122.4057060197085
+        },
+        "southwest" : {
+          "lat" : 37.7820170197085,
+          "lng" : -122.4084039802915
+        }
+      }
+    },
+    "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+    "id" : "8d7984c875e16914fe1d007538832c578ca2b439",
+    "name" : "Hotel Zetta San Francisco",
+    "opening_hours" : {
+      "open_now" : true,
+      "weekday_text" : []
+    },
+    "photos" : [
+      {
+        "height" : 3857,
+        "html_attributions" : [
+          "\u003ca href=\"https://maps.google.com/maps/contrib/108921352619372860496/photos\"\u003eHotel Zetta San Francisco\u003c/a\u003e"
+        ],
+        "photo_reference" : "CmRaAAAABdasfvGreblNS0nvf4YKpJHDXZJoJn3u00ewUlnyxNm7mImK6ecpRW3nFUIHq4Ec-fA4-6eam5FN0sApX2JRd4k1k5nsCWqmgh5uf1NhKHDsAzSmoMeBjEaBEV4sl_nwEhCXVQrMoy6fgd3NraC4evv_GhRgaKjjG6HO3znJlJp8VoCpeVwHFg",
+        "width" : 6292
+      }
+    ],
+    "place_id" : "ChIJmQIReYaAhYAR7_GwZ4EYByY",
+    "rating" : 4.4,
+    "reference" : "CmRRAAAAByAqS85BecmggpyWGPUH3Sca6sY_dzi1c1P3PzD9S4TMhte2nWED-JZLxadV2UwQuSIcvE6Y_JeF4Dl0NAoyYCNmH_EYCdIHW7Oe_YmoT-2LjEiPP6lROpx6vF6GuJFxEhBaFVlvxAniITNWSf_AlWiYGhQbYi-i40bCDQIzT0TtuniQxFLkRw",
+    "scope" : "GOOGLE",
+    "types" : [ "lodging", "point_of_interest", "establishment" ],
+    "vicinity" : "55 5th Street, San Francisco"
+  },
+  {
+    "geometry" : {
+      "location" : {
+        "lat" : 37.786503,
+        "lng" : -122.4095609
+      },
+      "viewport" : {
+        "northeast" : {
+          "lat" : 37.7878402802915,
+          "lng" : -122.4083071197085
+        },
+        "southwest" : {
+          "lat" : 37.7851423197085,
+          "lng" : -122.4110050802915
+        }
+      }
+    },
+    "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+    "id" : "dc85c1db48e4c3515debde8240f1a77d94cfd931",
+    "name" : "HI San Francisco Downtown Hostel",
+    "opening_hours" : {
+      "open_now" : true,
+      "weekday_text" : []
+    },
+    "photos" : [
+      {
+        "height" : 335,
+        "html_attributions" : [
+          "\u003ca href=\"https://maps.google.com/maps/contrib/108658999722668233665/photos\"\u003eHI San Francisco Downtown Hostel\u003c/a\u003e"
+        ],
+        "photo_reference" : "CmRaAAAALGEjfDCIYcwEnPWzsSyBnSVJ2NWggGhWuadTn2aljihjMW36yGxQXeiZDipobV0Joc-zPxC4xtA8zudVS9OVxqw4GmZBEQnLvnf11FY0H6gNW_jUG_gxeIZ7Kc8rMiAiEhDiEhZV0GNme6sojqLM_iBaGhRWRQvhm1YEpkf3NwHK7OTcpd0MJQ",
+        "width" : 500
+      }
+    ],
+    "place_id" : "ChIJlQp2Bo-AhYARN8vFv4qlBbE",
+    "rating" : 4.3,
+    "reference" : "CmRSAAAAEXTkv0zV_oPL4D_VaT-08sppy3ykgfVtBySYJ6Gu477uZaM0AQTvSi3H1o2UwOL3OIce7vR1Pt8K4zcUlomH6ZbTOZ2JBwKwBi92nD_NJ7ucbsNYr9gD1--8KAYIA7s4EhAjHcnw18LaxNCZvP1TxF2-GhRcYTv_1AZr1kGjp_-uuFP6m9xe_w",
+    "scope" : "GOOGLE",
+    "types" : [ "lodging", "point_of_interest", "establishment" ],
+    "vicinity" : "312 Mason Street, San Francisco"
+  },
+  {
+    "geometry" : {
+      "location" : {
+        "lat" : 37.78655790000001,
+        "lng" : -122.4030919
+      },
+      "viewport" : {
+        "northeast" : {
+          "lat" : 37.78801543029149,
+          "lng" : -122.4015472197085
+        },
+        "southwest" : {
+          "lat" : 37.7853174697085,
+          "lng" : -122.4042451802915
+        }
+      }
+    },
+    "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+    "id" : "7a361509871292c85d28ac831c2df195dd8842c8",
+    "name" : "The Park Central San Francisco",
+    "opening_hours" : {
+      "open_now" : true,
+      "weekday_text" : []
+    },
+    "photos" : [
+      {
+        "height" : 1500,
+        "html_attributions" : [
+          "\u003ca href=\"https://maps.google.com/maps/contrib/100005015927956687005/photos\"\u003eThe Park Central San Francisco\u003c/a\u003e"
+        ],
+        "photo_reference" : "CmRaAAAAT67yMM-9f2fQSFVJHkNCfAJ6MY5iMmXf3bKiGPJMzOsxyPK09DRO8IKd65ebCK6wvaFmjZkUXUwKQRsenNCs6cxRaVE2glteapTJueB81Vw7uoAfgv48sBgUsXppePhWEhBIRy2rXC4ll-xAzjshVihfGhQTm3CCyh6P9BokCIZ2OAWQeActhg",
+        "width" : 1000
+      }
+    ],
+    "place_id" : "ChIJEUwP4IeAhYARH8KUhX7fjpU",
+    "rating" : 4.1,
+    "reference" : "CmRSAAAA4UVQgZrT8OVGkPxTEVwqYh_nu2-JDVwo7EsPNVhOyjb1l_BcGN1mBeiVbH4rjlZxZVA9nHYhJNSA4t9TKfFotzF9nugbdK7X7sYULQPVvo-AChCcEw4Zh6VI6bMmRfIQEhB62pWPiZ3OAw_7TaiKyxsYGhSG7Hx9pHXvSERuhQKVk0GGkZD4Eg",
+    "scope" : "GOOGLE",
+    "types" : [ "lodging", "point_of_interest", "establishment" ],
+    "vicinity" : "50 3rd Street, San Francisco"
+  },
+  {
+    "geometry" : {
+      "location" : {
+        "lat" : 37.783115,
+        "lng" : -122.406659
+      },
+      "viewport" : {
+        "northeast" : {
+          "lat" : 37.7844023302915,
+          "lng" : -122.4053881697085
+        },
+        "southwest" : {
+          "lat" : 37.7817043697085,
+          "lng" : -122.4080861302915
+        }
+      }
+    },
+    "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+    "id" : "48be711476c866d9599adef3dc36a8c142e7b46a",
+    "name" : "The Pickwick Hotel",
+    "opening_hours" : {
+      "open_now" : true,
+      "weekday_text" : []
+    },
+    "photos" : [
+      {
+        "height" : 639,
+        "html_attributions" : [
+          "\u003ca href=\"https://maps.google.com/maps/contrib/105025685219736339652/photos\"\u003eThe Pickwick Hotel\u003c/a\u003e"
+        ],
+        "photo_reference" : "CmRaAAAAPeyCGUZMu2AxcUrmAAqjkAUB7O8UqYPFScOaPvgd_9U3CtdMaKy-Ihlh8xmX_DSjljPr0YLiJ7KMttfQRIH6gpQBNUp-vlStK7ch3uJGixkVSqqdeRYdJUEvhzR8JIZvEhDtPeBs8eBVRK2O_RvI7ypyGhSH7yvGVu3xECzI6qPOQfK50PWzPQ",
+        "width" : 960
+      }
+    ],
+    "place_id" : "ChIJRWYNhYaAhYARGVkqbV53to8",
+    "rating" : 3.5,
+    "reference" : "CmRSAAAAG8osu2V6wo84DQTsJQHijnr6YkbYzwZ27olEwppYztlNjivkg0vqsSazT44GUyqXgV-Pi0x_xL5N4r24wAkkefD9QeNeAknYth7_wESu6Z8_uGvyf7MaTDi7Ng57ASctEhB0oQfEkRdBhcl8x-aRqchfGhSuoOdzCPJo5zgQ6KqBw9fjA7_A7A",
+    "scope" : "GOOGLE",
+    "types" : [ "lodging", "point_of_interest", "establishment" ],
+    "vicinity" : "85 5th Street, San Francisco"
+  },
+  {
+    "geometry" : {
+      "location" : {
+        "lat" : 37.787802,
+        "lng" : -122.408812
+      },
+      "viewport" : {
+        "northeast" : {
+          "lat" : 37.7889793302915,
+          "lng" : -122.4071859697085
+        },
+        "southwest" : {
+          "lat" : 37.7862813697085,
+          "lng" : -122.4098839302915
+        }
+      }
+    },
+    "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+    "id" : "eaba9efd25115cc1f7d5a12953feb120a1380a64",
+    "name" : "The Westin St. Francis San Francisco on Union Square",
+    "opening_hours" : {
+      "open_now" : true,
+      "weekday_text" : []
+    },
+    "photos" : [
+      {
+        "height" : 977,
+        "html_attributions" : [
+          "\u003ca href=\"https://maps.google.com/maps/contrib/105058292699886602097/photos\"\u003eThe Westin St. Francis San Francisco on Union Square\u003c/a\u003e"
+        ],
+        "photo_reference" : "CmRaAAAADYb7wnKKhRuCrQ3Yi7mlWC49GoBTZNGyd6g5Bx4Vo-5ZlX8SuEB90vPhmIOqotzabBKN6p0VdVi8232xXWpD9O_MyATCQMKpWJNtgH2Si2fphTHf33dQOB9Rr8s5Q4GoEhDjZOEE5RfpJMWTFeKpC4kXGhTzH7P9MaRqKpk0WJGklxasfcUsNg",
+        "width" : 1500
+      }
+    ],
+    "place_id" : "ChIJi1J5_0ojh1QRSEAyfPSzO94",
+    "rating" : 4.2,
+    "reference" : "CmRSAAAAz76vu3yIohVKw6tE5FH8-vm91WaeCTYL5BLGm4IzOX11sdk43UmlTJuOhsOOqGO4k3DVa1Vo0K54HYVw05bXmGfcEgSk5ryZNU5gnI4M99IXXSzqHuXlPV2OHTkXY3wrEhBlbCxd3gjiUu-GY5p1sSNfGhTISAVSkBuCoHYhk6avNw6AfWQGSA",
+    "scope" : "GOOGLE",
+    "types" : [ "lodging", "point_of_interest", "establishment" ],
+    "vicinity" : "335 Powell Street, San Francisco"
+  },
+  {
+    "geometry" : {
+      "location" : {
+        "lat" : 37.7785189,
+        "lng" : -122.4056395
+      },
+      "viewport" : {
+        "northeast" : {
+          "lat" : 37.7957,
+          "lng" : -122.3814559
+        },
+        "southwest" : {
+          "lat" : 37.7659314,
+          "lng" : -122.4233804
+        }
+      }
+    },
+    "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+    "id" : "9abee36e204b62e2f89bf8f146535492846c9ed9",
+    "name" : "South of Market",
+    "photos" : [
+      {
+        "height" : 2988,
+        "html_attributions" : [
+          "\u003ca href=\"https://maps.google.com/maps/contrib/112211534541419331026/photos\"\u003eSam Rahimi\u003c/a\u003e"
+        ],
+        "photo_reference" : "CmRaAAAAI7qp5XOBNXvO5m9FXJAPr7Xlyl_9m5eV_xmt5QLt-myAnCaG-aQ6Z71wCzVoh4-N5guK6Caw9pFCGRh851L-H97RdZ6z_1QlSCf0UV0nWSINjDixTsuQve9zSF_NlccrEhCWDhd3D6FceeK2rFWdjjlPGhSpDYRZHYmz4DjIluwcAvRwWnZJvg",
+        "width" : 5312
+      }
+    ],
+    "place_id" : "ChIJezBipoOAhYARUPnBLQwBmf0",
+    "reference" : "CmRbAAAA_qB-0bAGXiMWMPtda7otHUMbFX9VZpzHxrd4a7fp7mCTEgjGsVy-gtpfWhAs0wKcEnePHOVLWion-W2vshj_rl0NWVuNbYjK5uaRhpSvFUEQgSrEEEX-DFESQQxa69JLEhC1Gm1Se6mGNL9J7M5yxIP3GhQKVqx4bVWQLGH9Em_W_gaE1g16Fw",
+    "scope" : "GOOGLE",
+    "types" : [ "neighborhood", "political" ],
+    "vicinity" : "San Francisco"
+  }
+]
