@@ -7,7 +7,7 @@ import { MapView, Marker, Position } from 'nativescript-google-maps-sdk';
 import { GeolocationService } from '../../shared/geolocation/geolocation.sercice';
 
 const style = require('./map-style.json');
-const _places = require('../../shared/place/place.mock.json');
+const _places = require('../../shared/place/place-search.mock.json');
 
 // Important - must register MapView plugin in order to use in Angular templates
 registerElement('MapView', () => MapView);

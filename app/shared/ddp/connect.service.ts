@@ -14,7 +14,7 @@ export class DdpConnectService {
   pingErrors:Array<number> = [];
 
   constructor(private router:Router, private http:Http) {
-    this.schedulePing();
+    //this.schedulePing();
   }
 
   canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot) {
